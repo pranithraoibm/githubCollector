@@ -6,7 +6,7 @@ env:
   API_HOST: apps.apic-on-power-p133.cp.fyre.ibm.com
   PLATFORM_API_PREFIX: production-mgmt-api-manager-apic
   PROVIDER_ORG: pranith-porg
-  API_FILES: weather-api_1.0.0.yaml
+  API_FILES: weather-api.yaml
 
 jobs:
   check_changes_job:
