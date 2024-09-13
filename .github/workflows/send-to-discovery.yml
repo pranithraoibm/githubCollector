@@ -3,9 +3,9 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apic-on-power-p133.cp.fyre.ibm.com
+  API_HOST: apps.apic-on-power-p133.cp.fyre.ibm.com
   # platform_api_prefix is not required to change for ApiConnect on Cloud
-  PLATFORM_API_PREFIX: production-mgmt-admin-apic.apps
+  PLATFORM_API_PREFIX: production-mgmt-platform-api-apic
   PROVIDER_ORG: pranith-porg
   INSECURE_SKIP_TLS_VERIFY: True
   API_FILES: APIfolder/api-with-examples.yaml
