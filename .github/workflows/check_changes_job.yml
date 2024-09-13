@@ -33,9 +33,4 @@ jobs:
     - name: Display the action-result
       run: |
         echo "Result of the action: ${{ steps.discover-apis.outputs.action-result }}"
-        echo "End"  
-
-
-
-production-mgmt-api-manager-apic.apps.apic-on-power-p133.cp.fyre.ibm.com
-production-mgmt-api-manager-apic.apps.apic-on-power-p133.cp.fyre.ibm.com
+        echo "End"
