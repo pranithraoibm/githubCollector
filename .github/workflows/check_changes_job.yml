@@ -3,8 +3,8 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apic-on-power-p133.cp.fyre.ibm.com
-  PLATFORM_API_PREFIX: production-mgmt-api-manager-apic.apps
+  API_HOST: apps.apic-on-power-p133.cp.fyre.ibm.com
+  PLATFORM_API_PREFIX: production-mgmt-api-manager-apic
   PROVIDER_ORG: pranith-porg
   API_FILES: weather-api.yaml
   INSECURE_SKIP_TLS_VERIFY: True
