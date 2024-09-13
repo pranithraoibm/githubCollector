@@ -1,13 +1,16 @@
-name: Sync Discovered API with APIConnect
+name: Sync Discovered API with ApiConnect
 
 on: [pull_request, workflow_dispatch, push]
 
 env:
   API_HOST: apps.apic-on-power-p133.cp.fyre.ibm.com
-  PLATFORM_API_PREFIX: production-mgmt-api-manager-apic
+  # platform_api_prefix is not required to change for ApiConnect on Cloud
+  PLATFORM_API_PREFIX: platform-api
   PROVIDER_ORG: pranith-porg
-  API_FILES: pet-api.json
-
+  API_FILES: gmail-api.json
+  #API_FILES: gmail-api.json,mit-api.json,gmail-api.yaml,APIfolder/uber-api.json
+  #API_FOLDERS: APIfolder
+  
 jobs:
   check_changes_job:
     runs-on: 'ubuntu-20.04'
