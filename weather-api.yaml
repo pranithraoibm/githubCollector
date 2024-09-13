@@ -110,3 +110,4 @@ components:
       name: X-IBM-Client-Id
 security:
   - clientID: []
+
